@@ -1,6 +1,6 @@
 # Мой первый сайт
 
-Ссылка на сайт: https://твой_логин.github.io/my-first-website
+Ссылка на сайт: https://eridan-forge.github.io/my-first-website
 
 ## Что сделано:
 - Адаптивная карточка
