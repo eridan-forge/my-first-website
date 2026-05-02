@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech & Wood</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0F120F;  /* твой тёмный фон */
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            color: #E8EDE8;
+            min-height: 100vh;
+        }
+        
+        /* Карточка */
+        .card {
+            background: #1A1C1A;  /* дорогой тёмный */
+            border-radius: 24px;
+            padding: 32px;
+            max-width: 500px;
+            margin: 50px auto;
+            border-left: 8px solid #6B4226;  /* деревянная полоса */
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+        
+        /* Акцентный цвет #447 */
+        .accent-text {
+            color: #4477AA;
+            font-weight: bold;
+        }
+        
+        /* Зелёные акценты */
+        .badge {
+            background: #1A6B4A;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            display: inline-block;
+        }
+        
+        /* Кнопки */
+        .btn {
+            background: #4477AA;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 12px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 20px;
+        }
+        
+        .btn:hover {
+            background: #335588;
+            transform: translateY(-2px);
+        }
+        
+        /* Деревянный акцент */
+        .wood-divider {
+            height: 4px;
+            background: #6B4226;
+            width: 60px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        
+        h1 {
+            font-size: 32px;
+            margin-bottom: 16px;
+        }
+        
+        p {
+            color: #A8B0A8;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="badge">✦ PREMIUM</div>
+        <div class="wood-divider"></div>
+        <h1>Технологии <span class="accent-text">в
+ 
+сталь</span></h1>
+        <p>Глубокий зелёный, дорогой синий и текстура дерева создают атмосферу премиальной технологии и природной элегантности.</p>
+        <button class="btn">Начать</button>
+    </div>
+</body>
+</html>
