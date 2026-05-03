@@ -1,99 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png">
     <title>Мой первый шаг</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-       body {
-    background: #0F120F;
-    color: #E8EDE8;
-    font-family: 'Segoe UI', system-ui, sans-serif;
-    text-align: center;
-    padding: 20px;
-    min-height: 100vh;
-}
-
-
-.card {
-    background: #1A1C1A;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 40px 30px;
-    border-radius: 32px;
-    border-left: 6px solid #6B4226;  
-    box-shadow: 0 20px 35px rgba(0,0,0,0.5);
-}
-
-
-.accent {
-    color: #4477AA;
-    font-weight: bold;
-}
-
-button {
-    background: #4477AA;
-    border: none;
-    padding: 14px 32px;
-    border-radius: 40px;
-    font-size: 18px;
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s;
-    margin-top: 20px;
-}
-
-button:hover {
-    background: #335588;
-    transform: translateY(-3px);
-}
-
-img {
-    border-radius: 20px;
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
-}
-
-@media (max-width: 600px) {
-    body {
-        padding: 15px;
-    }
-    .card {
-        padding: 25px 20px;
-    }
-    h1 {
-        font-size: 28px;
-    }
-    button {
-        padding: 12px 24px;
-        font-size: 16px;
-    }
-}
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
-    <h1>✅ Я <span class="accent">снова начал</span>!</h1>
-    <p>VS Code работает, файл создан.</p>
-    <button id="mainBtn">Нажми меня</button>
-    <img src="images/OIP.webp" alt="Описание">
-</div>
-
-<script>
-    const button = document.getElementById('mainBtn');
-    let clickCount = 0;
-
-    button.addEventListener('click', function() {
-        clickCount++;
-        if (clickCount === 1) {
-            button.textContent = '👍 Класс!';
-        } else if (clickCount === 2) {
-            button.textContent = '🚀 Погнали!';
-        } else {
-            button.textContent = '💪 Ты нажал ' + clickCount + ' раз';
-        }
-    });
-</script>
+        <h1>✅ Я <span class="accent">снова начал</span>!</h1>
+        <p>VS Code работает, файл создан.</p>
+        <button id="mainBtn">Нажми меня</button>
+        <img src="images/OIP.webp" alt="Описание">
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
